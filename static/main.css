@@ -54,10 +54,6 @@ ul {
   
 }
 
-/*.wireless:hover {
-  background: #F2EBD9;
-}*/
-
 .compass {
   background: yellow;
   height: 200px;
@@ -66,10 +62,6 @@ ul {
   font-size: 1.3em;
   color:black;
 }
-
-/*.compass:hover {
-  background: #F2EBD9;
-}*/
 
 .moodle {
   background: green;
@@ -82,9 +74,6 @@ ul {
   color:black;
 }
 
-/*.moodle:hover {
-  background: #F2EBD9;
-}*/
 
 .degree-audit {
   background: #c1713c;
@@ -93,10 +82,6 @@ ul {
   font-size: 1.3em;
   color:black;
 }
-
-/*.degree-audit:hover {
-  background: #F2EBD9;
-}*/
 
 .input-group {
   margin-left: 80px;
