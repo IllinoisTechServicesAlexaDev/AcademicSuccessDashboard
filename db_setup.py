@@ -33,21 +33,21 @@ advisees = [
         'moodle_status':'success'
     },
     {
-        'netid' : 'yisil2',
-        'name': 'Yisi Liu',
+        'netid' : 'jwhite3',
+        'name': 'Jane White',
         'department': 'Electrical and Computer Engineering',
         'degree_level': 'Master',
-        'email': 'yisil2@illinois.edu',
+        'email': 'jwhite3@illinois.edu',
         'wireless_status':'danger',
         'compass_status':'warning',
         'moodle_status':'danger'
     },
     {
-        'netid' : 'jforbs118',
-        'name': 'Joe Forbes',
+        'netid' : 'mjones6',
+        'name': 'Mark Jones',
         'department': 'Electrical and Computer Engineering',
         'degree_level': 'Master',
-        'email': 'jforbs118@illinois.edu',
+        'email': 'mjones6@illinois.edu',
         'wireless_status':'success',
         'compass_status':'warning',
         'moodle_status':'danger'

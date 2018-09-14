@@ -1,43 +1,55 @@
 {% extends "layout.html" %}
 {% block content %}
+<div class="profile">
+  <img src="/static/profile_pics/default.jpg" height="100px" width="auto" alt="profile_image"></img>
+  <p>
+    <font class="advisee-name">Mary Smith</font></br>
+  Undergraduate, Computer Science</br>
+  msmith5@illinois.edu
+  </p>
+</div> 
+
 <div class="row">
         <div class="wireless">
           <h3>Wireless</h3>
-          </br></br>
-          <ol>
-            <li>You have not logged into Wireless for 14 days</li>
+          <p>
+          <ul>
+            <li><font color="red"><strong>You have not logged into Wireless for 14 days</strong></font></li>
             <li>Last logged in: 2018-07-25 5:00:48 PM</li>
-          </ol>
-        
+          </ul>
+          </p>
         </div>
         <div class="compass">
           <h3>Compass</h3>
-          </br></br>
-          <ol>
-            <li>You have not logged into Compass for 8 days</li>
+          <p>
+          <ul>
+            <li><font color="ef9d1a"><strong>You have not logged into Compass for 8 days</strong></font></li>
             <li>Last logged in: 2018-07-31 3:02:23 PM</li>
-          </ol>
+          </ul>
+          </p>
         </div>
         <div class="moodle">
           <h3>Moodle</h3>
-          </br></br>
-          <ol>
-            <li>You have not logged into Moodle for 3 days</li>
+          <p>
+          <ul>
+            <li><font color="green"><strong>You have not logged into Moodle for 3 days</strong></font></li>
             <li>Last logged in: 2018-08-05 2:03:10 AM</li>
-          </ol>
+          </ul>
+          </p>
         </div>
 </div>
 <div class="row">
         <div class="col-md-12 degree-audit">
           <h3>Degree Audit</h3>
-          </br></br>
-        <ol>
-            <li>Your degree: Computer Science</li>
-            <li>You have completed 24 of 28 core credits</li>
-            <li>You have completed 6 of 12 technical electives</li>
-            <li>You have completed 4 of 8 advanced electives</li>
-            <li>You have completed 34 of 48 total credits</li>
-          </ol>
+          <p>
+        <ul>
+            <li>Cumulative GPA: 3.53  </li>         
+            <li>Cummulative Core Credits:              24 <font style="color: #898989">/ 28 required</font></li>
+            <li>Cummulative Technical Elective Credits: 6 <font style="color: #898989">/ 12 required</font></li>
+            <li>Cummulative Advanced Elective Credits:  4 <font style="color: #898989">/ 8 required</font></li>
+            <li>Cummulative Total Credits:             34 <font style="color: #898989">/ 48 required</font></li>
+          </ul>
+        </p>
         </div>
 
 </div>
